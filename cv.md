@@ -5,4 +5,4 @@
 **but i still working on it!!!**
 ### My plans on the future:
 - I'm trying to learn HTML, CSS, JS and some framework
-- _I hope i don't give up_  <3
+- _I hope i don't give up_ 
