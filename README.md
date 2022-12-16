@@ -1,1 +1,1 @@
-# rsschool-cv
+https://pyklek.github.io/rsschool-cv/
