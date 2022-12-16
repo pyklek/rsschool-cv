@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>My first page</title>
+    <title>Victoria Dementyeva | CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <p>My first page</p>
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#aboutme">About me</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#projects">Projects</a></li>
+                    <li class="nav-item"><a href="#code">Code</a></li>
+                    <li class="nav-item"><a href="#education">Education</a></li>
+                    <li class="nav-item"><a href="#language">Language</a></li>
+                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <section class="section-profile">
+                <img src="assets/prof_pic.png" alt="ProfilePic">
+                    <div class="div-container">
+                        <h1 class="my-name">Victoria Dementyeva</h1>
+                        <h2 class="prof">Front-end developer</h2>
+                    </div>
+            </section>
+        </div>
+        <section class="section" id="aboutme">
+            <h2>About me</h2>
+                <p>I don't have experience in programming (like at all). But i still working on it. It's really interesting to me get new skills in HTML, CSS and JS.
+                 Sometimes it's really get harder for me to understand and write some lines in code, but for reality for me it's unusual experience i would like to try. 
+                 This all rally new and exiting for me.
+                 I want to try harder to achive more experience.
+                 I'm in the process of building a portfolio...</p>
+        </section>
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+                <ul class="skiils-list">
+                    <li class="skills-item">HTML5, CSS3</li>
+                    <li class="skills-item">JavaScript</li>
+                    <li class="skills-item">Git, GitHub</li>
+                    <li class="skills-item">Figma</li>
+                </ul>     
+        </section>
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <a class="project" href="https://pyklek.github.io/rsschool-cv/cv">Current project (RS School: stage-0)</a>
+        </section>
+        <section class="section" id="code">
+            <h2>Code</h2>
+            <p>
+                <code>
+                for (let i = 0; i < 10; i++) {<br>
+                    <br>
+                    if (i % 2) {<br>
+                        alert( i );<br>
+                    }<br>
+                    <br>
+                }<br>
+                </code>
+            </p>
+        </section>
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <p>Donetsk National Medical University<br>RS School - Stage 0</p>
+        </section>
+        <section class="section" id="language">
+            <h2>Language</h2>
+            <ul class="lanuage-list">
+                <li>English - Intermediate (B1)</li>
+                <li>Russian - Native</li>
+                <li>Ukrainian - Advanced (C1)</li>
+            </ul>
+        </section>         
+        <section class="section" id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li class="contacts"><a href="https://t.me/arca100000">Telegram</a></li>
+                <li class="contacts"><a href="https://github.com/pyklek">GitHub</a></li>
+                <li class="contacts"><a href="https://discord.gg/MfEeYgb2f4">Discord</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <h3>Created by pyklek</h3>
+        <a href="https://github.com/pyklek"><img src="assets/github.png" alt="github" width="60" height="60"></a>
+        <a href="https://rs.school/"><img src="assets/rs-logo.png" alt="rs-school" width="150"></a>
+        <h2 class="year">2022</h2>
+    </footer>
 </body>
 </html>

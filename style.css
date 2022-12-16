@@ -1,5 +1,71 @@
-p {
-    color: red;
-    width: 500px;
-    border: 1px solid black;
-  }
+body {
+  font-family: 'Mukta', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.header {
+  border: 1px solid #C0C0C0 0.5;
+}
+.nav-list {
+  display: flex;
+  gap: 10px;
+  gap: 10px 20px;
+  row-gap: 10px;
+  column-gap: 20px;
+  justify-content: center;
+  justify-content: space-around;
+  list-style: none;
+  float: top;
+  margin: 3em;
+  padding: 1em;
+  border: solid 0.3em rgb(207, 207, 207);
+  border-bottom: 1rem solid #C0C0C0;
+  background-color: #DCDCDC;
+  text-transform: lowercase;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 2;
+}
+.nav-item a{
+  border-bottom: thick double #C0C0C0;
+  text-decoration: none !important;
+  color: black;
+}
+.div-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section {
+  font-size: 20px;
+  margin: 10em;
+  padding: 0em;
+}
+.section-profile {
+  margin: 1em;
+  padding: 2em;
+}
+html{
+  margin: 0 auto;
+  width: 1600px
+}
+.project {
+  text-decoration: none !important;
+  color: black;
+  border-bottom: dashed #DCDCDC;
+}
+.year {
+  align-content: center;
+  text-align: center;
+}
+.contacts a{
+  border-bottom: dashed #DCDCDC;
+  text-decoration: none !important;
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
