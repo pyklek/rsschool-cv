@@ -88,3 +88,6 @@ html, body {
   float:left;
   margin: 3em 3em 3em 3em;
 }
+a:hover {
+  color: #C0C0C0;
+}
