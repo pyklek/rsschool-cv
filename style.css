@@ -42,6 +42,7 @@ body {
   text-transform: uppercase;
   float:right;
   margin: 2em 20em 2em 0 ;
+  font-size: 17px;
 }
 .section {
   font-size: 20px;
@@ -86,5 +87,5 @@ html, body {
 }
 .pic {
   float:left;
-  margin: 0 2em 10em 0em;
+  margin: 3em 3em 3em 3em;
 }
