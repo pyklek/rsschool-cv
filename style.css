@@ -3,6 +3,8 @@ body {
 }
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .header {
   border: 1px solid #C0C0C0 0.5;
@@ -38,6 +40,8 @@ body {
   align-content: center;
   text-align: center;
   text-transform: uppercase;
+  float:right;
+  margin: 2em 20em 2em 0 ;
 }
 .section {
   font-size: 20px;
@@ -50,7 +54,7 @@ body {
 }
 html{
   margin: 0 auto;
-  width: 1600px
+  width: 1200px
 }
 .project {
   text-decoration: none !important;
@@ -68,4 +72,19 @@ html{
 }
 ul {
   list-style-type: none;
+}
+.footer{
+  background-color: #C0C0C0;
+  flex: 0 0 auto;
+
+}
+html, body {
+  height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.pic {
+  float:left;
+  margin: 0 2em 10em 0em;
 }
