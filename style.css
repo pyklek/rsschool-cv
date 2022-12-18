@@ -19,10 +19,9 @@ body {
   justify-content: space-around;
   list-style: none;
   float: top;
-  margin: 3em;
+  margin: 0;
   padding: 1em;
-  border: solid 0.3em rgb(207, 207, 207);
-  border-bottom: 1rem solid #C0C0C0;
+  border: solid 0.1em rgba(207, 207, 207, 0.5);
   background-color: #DCDCDC;
   text-transform: lowercase;
   font-size: 30px;
@@ -41,7 +40,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   float:right;
-  margin: 2em 22em 2em 0 ;
+  margin: 2em 20em 2em 0 ;
 }
 .section {
   font-size: 20px;
@@ -50,7 +49,7 @@ body {
 }
 .section-profile {
   margin: 1em;
-  padding: 2em;
+  padding: 1em;
 }
 html{
   margin: 0 auto;
@@ -87,4 +86,10 @@ html, body {
 .pic {
   float:left;
   margin: 3em 3em 3em 3em;
+}
+a:hover {
+  color: #C0C0C0;
+}
+.contacts-pics {
+  margin: 15px 20px 0 15px;
 }
